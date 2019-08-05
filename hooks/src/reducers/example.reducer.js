@@ -1,11 +1,11 @@
 const initialState = {
-  mainContent: []
+  greeting: ''
 }
 
 export default function(state = initialState, action) {
   switch (action.type) {
-    case 'MAINCONTENT':
-      return {...state, mainContent: action.payload}
+    case 'GREETING':
+      return {...state, greeting: action.payload}
     default:
       return state
   }

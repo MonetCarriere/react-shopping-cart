@@ -1,8 +1,11 @@
 import store from '../store'
+import axios from 'axios'
 
-export function greet(greeting) {
-  store.dispatch({
-    type: 'GREETING',
-    payload: greeting
+export function mainContent () {
+  axios.get("/products").then(rsp => {
+    store.dispatch({
+      type: 'MAINCONTENT',
+      payload: rsp.data
+    })
   })
 }

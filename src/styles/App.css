@@ -1,2 +1,40 @@
 html {box-sizing:border-box;}
 *, *::before, *::after {box-sizing:inherit;}
+
+body {
+    background: #e0e0e0;
+}
+
+
+#aside {
+    margin-left: 15%;
+}
+
+#main {
+    margin-left: 30%;
+}
+
+.asideP {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button-size {
+    padding: 5px;
+    border-radius: 70%;
+    font-size: 12px;
+    margin: 5px 5px;
+    background-color: rgb(118,197,225);
+}
+
+
+._750-button {
+    margin-left: 10px;
+    background-color: rgb(118,197,225);
+    padding: 5px;
+}
+
+.star-button {
+    background-color: rgb(118,197,225);
+    padding: 5px;
+}
